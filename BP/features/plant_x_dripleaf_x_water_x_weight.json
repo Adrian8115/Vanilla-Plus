@@ -1,0 +1,42 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "vp:plant_x_dripleaf_x_water_x_weight"
+		},
+		"features": [
+			[
+				"vp:plant_x_dripleaf_big_d0_x_03_water_x_aggregate",
+				10
+			],
+			[
+				"vp:plant_x_dripleaf_big_d1_x_03_water_x_aggregate",
+				10
+			],
+			[
+				"vp:plant_x_dripleaf_big_d2_x_03_water_x_aggregate",
+				10
+			],
+			[
+				"vp:plant_x_dripleaf_big_d3_x_03_water_x_aggregate",
+				10
+			],
+			[
+				"vp:plant_x_dripleaf_small_d0_x_03_x_aggregate",
+				1
+			],
+			[
+				"vp:plant_x_dripleaf_small_d0_x_03_x_aggregate",
+				1
+			],
+			[
+				"vp:plant_x_dripleaf_small_d0_x_03_x_aggregate",
+				1
+			],
+			[
+				"vp:plant_x_dripleaf_small_d0_x_03_x_aggregate",
+				1
+			]
+		]
+	}
+}

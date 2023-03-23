@@ -1,0 +1,13 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "vp:plant_x_flower_rose_bush_x_04_x_aggregate"
+		},
+		"early_out": "first_failure",
+		"features": [
+			"vp:plant_x_flower_rose_bush_x_01_low_x_singleblock",
+			"vp:plant_x_flower_rose_bush_x_03_up_x_scatter"
+		]
+	}
+}

@@ -1,0 +1,180 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "vp:patch_underground_x_dead_coral_x_brain_x_ore"
+		},
+		"count": 20,
+		"replace_rules": [
+			{
+				"places_block": {
+					"name": "minecraft:coral_block",
+					"states": {
+						"coral_color": "pink",
+						"dead_bit": true
+					}
+				},
+				"may_replace": [
+					"minecraft:dirt"
+				]
+			},
+			{
+				"places_block": {
+					"name": "minecraft:coral_block",
+					"states": {
+						"coral_color": "pink",
+						"dead_bit": true
+					}
+				},
+				"may_replace": [
+					{
+						"name": "minecraft:dirt",
+						"states": {
+							"dirt_type": "coarse"
+						}
+					}
+				]
+			},
+			{
+				"places_block": {
+					"name": "minecraft:coral_block",
+					"states": {
+						"coral_color": "pink",
+						"dead_bit": true
+					}
+				},
+				"may_replace": [
+					"minecraft:dirt_with_roots"
+				]
+			},
+			{
+				"places_block": {
+					"name": "minecraft:coral_block",
+					"states": {
+						"coral_color": "pink",
+						"dead_bit": true
+					}
+				},
+				"may_replace": [
+					"minecraft:moss_block"
+				]
+			},
+			{
+				"places_block": {
+					"name": "minecraft:coral_block",
+					"states": {
+						"coral_color": "pink",
+						"dead_bit": true
+					}
+				},
+				"may_replace": [
+					"minecraft:cobblestone"
+				]
+			},
+			{
+				"places_block": {
+					"name": "minecraft:coral_block",
+					"states": {
+						"coral_color": "pink",
+						"dead_bit": true
+					}
+				},
+				"may_replace": [
+					"minecraft:mossy_cobblestone"
+				]
+			},
+			{
+				"places_block": {
+					"name": "minecraft:coral_block",
+					"states": {
+						"coral_color": "pink",
+						"dead_bit": true
+					}
+				},
+				"may_replace": [
+					{
+						"name": "minecraft:stone",
+						"states": {
+							"stone_type": "stone"
+						}
+					}
+				]
+			},
+			{
+				"places_block": {
+					"name": "minecraft:coral_block",
+					"states": {
+						"coral_color": "pink",
+						"dead_bit": true
+					}
+				},
+				"may_replace": [
+					{
+						"name": "minecraft:stone",
+						"states": {
+							"stone_type": "andesite"
+						}
+					}
+				]
+			},
+			{
+				"places_block": {
+					"name": "minecraft:coral_block",
+					"states": {
+						"coral_color": "pink",
+						"dead_bit": true
+					}
+				},
+				"may_replace": [
+					{
+						"name": "minecraft:stone",
+						"states": {
+							"stone_type": "diorite"
+						}
+					}
+				]
+			},
+			{
+				"places_block": {
+					"name": "minecraft:coral_block",
+					"states": {
+						"coral_color": "pink",
+						"dead_bit": true
+					}
+				},
+				"may_replace": [
+					{
+						"name": "minecraft:stone",
+						"states": {
+							"stone_type": "granite"
+						}
+					}
+				]
+			},
+			{
+				"places_block": {
+					"name": "minecraft:coral_block",
+					"states": {
+						"coral_color": "pink",
+						"dead_bit": true
+					}
+				},
+				"may_replace": [
+					"minecraft:deepslate"
+				]
+			},
+			{
+				"places_block": {
+					"name": "minecraft:coral_block",
+					"states": {
+						"coral_color": "pink",
+						"dead_bit": true
+					}
+				},
+				"may_replace": [
+					"minecraft:tuff"
+				]
+			}
+		]
+	}
+}

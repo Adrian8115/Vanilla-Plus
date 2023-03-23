@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vp:leather_into_leather_pile"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"f": {
+				"item": "minecraft:leather"
+			}
+		},
+		"pattern": [
+			"fff",
+			"fff",
+			"fff"
+		],
+		"result": {
+			"item": "vp:leather_pile"
+		}
+	}
+}

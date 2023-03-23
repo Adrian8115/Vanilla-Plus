@@ -1,0 +1,70 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "vp:patch_surface_x_cobblestone_x_ore"
+		},
+		"count": 15,
+		"replace_rules": [
+			{
+				"places_block": "minecraft:cobblestone",
+				"may_replace": [
+					"minecraft:grass"
+				]
+			},
+			{
+				"places_block": "minecraft:cobblestone",
+				"may_replace": [
+					"minecraft:mycelium"
+				]
+			},
+			{
+				"places_block": "minecraft:cobblestone",
+				"may_replace": [
+					"minecraft:podzol"
+				]
+			},
+			{
+				"places_block": "minecraft:cobblestone",
+				"may_replace": [
+					"minecraft:dirt"
+				]
+			},
+			{
+				"places_block": "minecraft:cobblestone",
+				"may_replace": [
+					{
+						"name": "minecraft:dirt",
+						"states": {
+							"dirt_type": "coarse"
+						}
+					}
+				]
+			},
+			{
+				"places_block": "minecraft:cobblestone",
+				"may_replace": [
+					"minecraft:moss_block"
+				]
+			},
+			{
+				"places_block": "minecraft:cobblestone",
+				"may_replace": [
+					"minecraft:clay"
+				]
+			},
+			{
+				"places_block": "minecraft:cobblestone",
+				"may_replace": [
+					"minecraft:gravel"
+				]
+			},
+			{
+				"places_block": "minecraft:cobblestone",
+				"may_replace": [
+					"minecraft:sand"
+				]
+			}
+		]
+	}
+}

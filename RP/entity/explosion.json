@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "vp:explosion",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/empty"
+			},
+			"geometry": {
+				"default": "geometry.agent"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

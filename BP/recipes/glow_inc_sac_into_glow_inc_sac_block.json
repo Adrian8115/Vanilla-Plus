@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vp:glow_inc_sac_into_glow_inc_sac_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"f": {
+				"item": "minecraft:glow_ink_sac"
+			}
+		},
+		"pattern": [
+			"fff",
+			"fff",
+			"fff"
+		],
+		"result": {
+			"item": "vp:glow_ink_sac_block"
+		}
+	}
+}

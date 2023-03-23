@@ -1,0 +1,22 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "vp:plant_x_dripleaf_base_x_01_surface_x_singleblock"
+		},
+		"places_block": "minecraft:grass",
+		"enforce_survivability_rules": false,
+		"enforce_placement_rules": false,
+		"may_replace": [
+			"minecraft:grass",
+			"minecraft:podzol",
+			"minecraft:moss_block",
+			"minecraft:clay"
+		],
+		"may_attach_to": {
+			"top": [
+				"minecraft:air"
+			]
+		}
+	}
+}

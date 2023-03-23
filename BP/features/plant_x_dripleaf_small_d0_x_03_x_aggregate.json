@@ -1,0 +1,13 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "vp:plant_x_dripleaf_small_d0_x_03_x_aggregate"
+		},
+		"early_out": "first_failure",
+		"features": [
+			"vp:plant_x_dripleaf_base_x_01_water_x_singleblock",
+			"vp:plant_x_dripleaf_small_d0_x_02_x_scatter"
+		]
+	}
+}

@@ -1,0 +1,40 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "vp:structure_x_dead_coral_block",
+      "places_feature": "vp:structure_weight_x_dead_coral"
+    },
+    "conditions": {
+      "placement_pass": "underground_pass",
+      "minecraft:biome_filter": [
+        {
+          "all_of": [
+            {
+              "any_of": [
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "ocean"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 10.0,
+      "x": {
+        "distribution": "uniform",
+        "extent": [ -8, 8 ]
+      },
+      "y": "query.above_top_solid(variable.worldx, variable.worldz) + -1",
+      "z": {
+        "distribution": "uniform",
+        "extent": [ -8, 8 ]
+      }
+    }
+  }
+}

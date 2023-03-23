@@ -1,0 +1,42 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:multiface_feature": {
+		"description": {
+			"identifier": "vp:block_x_sculk_vein_x_01_multiface"
+		},
+		"search_range": 10,
+		"places_block": "minecraft:sculk_vein",
+		"can_place_on_floor": true,
+		"can_place_on_ceiling": true,
+		"can_place_on_wall": true,
+		"chance_of_spreading": 1,
+		"can_place_on": [
+			"minecraft:mycelium",
+			"minecraft:dirt_with_roots",
+			"minecraft:cobblestone",
+			"minecraft:mossy_cobblestone",
+			"minecraft:stone",
+			"minecraft:coal_ore",
+			"minecraft:copper_ore",
+			"minecraft:diamond_ore",
+			"minecraft:emerald_ore",
+			"minecraft:gold_ore",
+			"minecraft:iron_ore",
+			"minecraft:lapis_ore",
+			"minecraft:redstone_ore",
+			"minecraft:dripstone_block",
+			"minecraft:calcite",
+			"minecraft:tuff",
+			"minecraft:deepslate",
+			"minecraft:deepslate_coal_ore",
+			"minecraft:deepslate_copper_ore",
+			"minecraft:deepslate_diamond_ore",
+			"minecraft:deepslate_emerald_ore",
+			"minecraft:deepslate_gold_ore",
+			"minecraft:deepslate_iron_ore",
+			"minecraft:deepslate_lapis_ore",
+			"minecraft:deepslate_redstone_ore",
+			"minecraft:cobbled_deepslate"
+		]
+	}
+}

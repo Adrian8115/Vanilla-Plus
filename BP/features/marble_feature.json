@@ -1,0 +1,19 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "vp:marble_feature"
+		},
+		"count": 4,
+		"replace_rules": [
+			{
+				"places_block": "vp:marble",
+				"may_replace": [
+					"dirt",
+					"stone",
+					"deepslate"
+				]
+			}
+		]
+	}
+}

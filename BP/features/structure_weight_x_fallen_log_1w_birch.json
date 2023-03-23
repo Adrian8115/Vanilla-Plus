@@ -1,0 +1,26 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "vp:structure_weight_x_fallen_log_1w_birch"
+		},
+		"features": [
+			[
+				"vp:structure_x_fallen_log_1w_birch_02",
+				10
+			],
+			[
+				"vp:structure_x_fallen_log_1w_birch_03",
+				10
+			],
+			[
+				"vp:structure_x_fallen_log_1w_birch_04",
+				8
+			],
+			[
+				"vp:structure_x_fallen_log_1w_birch_05",
+				5
+			]
+		]
+	}
+}

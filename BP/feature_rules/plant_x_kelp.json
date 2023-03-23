@@ -1,0 +1,81 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "vp:plant_x_kelp",
+      "places_feature": "minecraft:kelp_feature"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+				{
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "frozen_river"
+            },
+            {
+              "any_of": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "flower_forest"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "forest"
+								},
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "swamp"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "jungle"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "savanna_mutated"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "mooshroom_island"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "river"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "ocean"
+                }
+              ]
+            }
+          ]
+        }
+			]
+    },
+    "distribution": {
+      "iterations": 3,
+      "scatter_chance": 25,
+      "coordinate_eval_order": "zxy",
+      "x": {
+        "distribution": "uniform",
+        "extent": [ 0, 35 ]
+      },
+      "y": "query.heightmap(variable.worldx, variable.worldz)",
+      "z": {
+        "distribution": "uniform",
+        "extent": [ 0, 35 ]
+      }
+    }
+  }
+}

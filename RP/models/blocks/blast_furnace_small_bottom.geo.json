@@ -1,0 +1,105 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.blast_furnace_small_bottom",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-13,
+								0,
+								-15
+							],
+							"size": [
+								26,
+								16,
+								30
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										30,
+										30
+									],
+									"uv_size": [
+										26,
+										16
+									]
+								},
+								"east": {
+									"uv": [
+										0,
+										30
+									],
+									"uv_size": [
+										30,
+										16
+									]
+								},
+								"south": {
+									"uv": [
+										86,
+										30
+									],
+									"uv_size": [
+										26,
+										16
+									]
+								},
+								"west": {
+									"uv": [
+										56,
+										30
+									],
+									"uv_size": [
+										30,
+										16
+									]
+								},
+								"up": {
+									"uv": [
+										0,
+										0
+									],
+									"uv_size": [
+										26,
+										30
+									]
+								},
+								"down": {
+									"uv": [
+										26,
+										30
+									],
+									"uv_size": [
+										26,
+										-30
+									]
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:growing_plant_feature": {
+		"description": {
+			"identifier": "vp:plant_x_dripleaf_small_d2_x_01_x_growing"
+		},
+		"height_distribution": [
+			[
+				{
+					"range_min": 2,
+					"range_max": 2
+				},
+				2
+			],
+			[
+				{
+					"range_min": 2,
+					"range_max": 2
+				},
+				1
+			]
+		],
+		"growth_direction": "UP",
+		"body_blocks": [
+			[
+				{
+					"name": "minecraft:small_dripleaf_block",
+					"states": {
+						"upper_block_bit": false,
+						"direction": 2
+					}
+				},
+				1
+			]
+		],
+		"head_blocks": [
+			[
+				{
+					"name": "minecraft:small_dripleaf_block",
+					"states": {
+						"upper_block_bit": true,
+						"direction": 2
+					}
+				},
+				1
+			]
+		],
+		"allow_water": true
+	}
+}

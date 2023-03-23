@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vp:cobblestone_brick_mossy_slab_crafting_table"
+		},
+		"pattern": [
+			"aaa"
+		],
+		"key": {
+			"a": {
+				"item": "vp:cobblestone_brick_mossy"
+			}
+		},
+		"result": [
+			{
+				"item": "vp:cobblestone_brick_mossy_slab",
+				"count": 6
+			}
+		],
+		"tags":[
+			"crafting_table"
+		]
+	}
+}

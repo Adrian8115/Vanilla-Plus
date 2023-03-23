@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "vp:flint_into_flint_block_recipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "f": {
+                "item": "minecraft:flint"
+            }
+        },
+        "pattern": [
+            "fff",
+            "fff",
+            "fff"
+        ],
+        "result": {
+            "item": "vp:flint_block"
+        }
+    }
+}

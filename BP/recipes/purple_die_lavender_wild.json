@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "vp:purple_dye_lavender_wild"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"result": [
+			{
+				"item": "purple_dye",
+				"count": 1
+			}
+		],
+		"ingredients": [
+			{
+				"item": "vp:lavender_wild",
+				"count": 1
+			}
+		]
+	}
+}

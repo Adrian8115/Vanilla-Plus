@@ -1,0 +1,32 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "vp:plant_x_fern_x_02_x_scatter"
+		},
+		"places_feature": "vp:plant_x_fern_x_01_x_singleblock",
+		"iterations": 90,
+		"coordinate_eval_order": "zyx",
+		"x": {
+			"distribution": "gaussian",
+			"extent": [
+				-8,
+				8
+			]
+		},
+		"y": {
+			"distribution": "gaussian",
+			"extent": [
+				-4,
+				4
+			]
+		},
+		"z": {
+			"distribution": "gaussian",
+			"extent": [
+				-8,
+				8
+			]
+		}
+	}
+}

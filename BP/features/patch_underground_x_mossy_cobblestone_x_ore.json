@@ -1,0 +1,114 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "vp:patch_underground_x_mossy_cobblestone_x_ore"
+		},
+		"count": 25,
+		"replace_rules": [
+			{
+				"places_block": "minecraft:mossy_cobblestone",
+				"may_replace": [
+					"minecraft:dirt"
+				]
+			},
+			{
+				"places_block": "minecraft:mossy_cobblestone",
+				"may_replace": [
+					{
+						"name": "minecraft:dirt",
+						"states": {
+							"dirt_type": "coarse"
+						}
+					}
+				]
+			},
+			{
+				"places_block": "minecraft:mossy_cobblestone",
+				"may_replace": [
+					"minecraft:dirt_with_roots"
+				]
+			},
+			{
+				"places_block": "minecraft:mossy_cobblestone",
+				"may_replace": [
+					"minecraft:moss_block"
+				]
+			},
+			{
+				"places_block": "minecraft:mossy_cobblestone",
+				"may_replace": [
+					"minecraft:clay"
+				]
+			},
+			{
+				"places_block": "minecraft:mossy_cobblestone",
+				"may_replace": [
+					"minecraft:gravel"
+				]
+			},
+			{
+				"places_block": "minecraft:mossy_cobblestone",
+				"may_replace": [
+					{
+						"name": "minecraft:stone",
+						"states": {
+							"stone_type": "stone"
+						}
+					}
+				]
+			},
+			{
+				"places_block": "minecraft:mossy_cobblestone",
+				"may_replace": [
+					{
+						"name": "minecraft:stone",
+						"states": {
+							"stone_type": "andesite"
+						}
+					}
+				]
+			},
+			{
+				"places_block": "minecraft:mossy_cobblestone",
+				"may_replace": [
+					{
+						"name": "minecraft:stone",
+						"states": {
+							"stone_type": "diorite"
+						}
+					}
+				]
+			},
+			{
+				"places_block": "minecraft:mossy_cobblestone",
+				"may_replace": [
+					{
+						"name": "minecraft:stone",
+						"states": {
+							"stone_type": "granite"
+						}
+					}
+				]
+			},
+			{
+				"places_block": "minecraft:mossy_cobblestone",
+				"may_replace": [
+					"minecraft:deepslate"
+				]
+			},
+			{
+				"places_block": "minecraft:mossy_cobblestone",
+				"may_replace": [
+					"minecraft:tuff"
+				]
+			},
+			{
+				"places_block": "minecraft:mossy_cobblestone",
+				"may_replace": [
+					"minecraft:dripstone_block"
+				]
+			}
+		]
+	}
+}

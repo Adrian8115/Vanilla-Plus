@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "vp:cobblestone_brick_stonecutter"
+		},
+		"result":[
+			{
+				"item": "vp:cobblestone_brick",
+				"count": 1
+			}
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:cobblestone",
+				"count": 1
+			}
+		],
+		"tags": [
+			"stonecutter"
+		]
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "vp:structure_weight_x_root_form_grass_block"
+		},
+		"features": [
+			[
+				"vp:structure_x_root_form_grass_block_01",
+				1
+			],
+			[
+				"vp:structure_x_root_form_grass_block_02",
+				1
+			],
+			[
+				"vp:structure_x_root_form_grass_block_03",
+				1
+			],
+			[
+				"vp:structure_x_root_form_grass_block_04",
+				1
+			]
+		]
+	}
+}

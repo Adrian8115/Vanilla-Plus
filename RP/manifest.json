@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Adrian8115"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.6.0"
+			],
+			"dash": [
+				"0.10.8"
+			]
+		}
+	},
+	"header": {
+		"name": "Vanilla+",
+		"description": "A Minecraft Addon",
+		"min_engine_version": [
+			1,
+			19,
+			60
+		],
+		"uuid": "09bd4bea-b218-47db-8eb1-c9cd5410c605",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "e02e253e-2680-431d-b327-7b4f9d52c3f7",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "4dd1d3a8-36f3-47cb-866a-e285769724a8",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

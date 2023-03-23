@@ -1,0 +1,21 @@
+{
+	"resource_pack_name": "Vanilla+",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"salt": {
+			"textures": "textures/items/salt"
+		},
+		"vp_steel_ingot": {
+			"textures": "textures/items/steel_ingot"
+		},
+		"vp_steel_plate": {
+			"textures": "textures/items/steel_plate"
+		},
+		"vp_vase_desert_item": {
+			"textures": "textures/items/vase_desert_item"
+		},
+		"vp_vase_mesa_item": {
+			"textures": "textures/items/vase_mesa_item"
+		}
+	}
+}

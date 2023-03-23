@@ -1,0 +1,42 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "vp:structure_weight_x_pile_x_prismarine"
+		},
+		"features": [
+			[
+				"vp:structure_x_pile_x_prismarine_01",
+				1
+			],
+			[
+				"vp:structure_x_pile_x_prismarine_02",
+				1
+			],
+			[
+				"vp:structure_x_pile_x_prismarine_03",
+				1
+			],
+			[
+				"vp:structure_x_pile_x_prismarine_04",
+				1
+			],
+			[
+				"vp:structure_x_pile_x_prismarine_05",
+				1
+			],
+			[
+				"vp:structure_x_pile_x_prismarine_06",
+				1
+			],
+			[
+				"vp:structure_x_pile_x_prismarine_07",
+				1
+			],
+			[
+				"vp:structure_x_pile_x_prismarine_08",
+				1
+			]
+		]
+	}
+}

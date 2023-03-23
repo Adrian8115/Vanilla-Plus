@@ -1,0 +1,38 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "vp:plant_x_deadbush_x_singleblock"
+		},
+		"places_block": "minecraft:deadbush",
+		"enforce_survivability_rules": false,
+		"enforce_placement_rules": false,
+		"may_replace": [
+			"minecraft:air",
+			"minecraft:water",
+			"minecraft:flowing_water"
+		],
+		"may_attach_to": {
+			"bottom": [
+				"minecraft:podzol",
+				"minecraft:dirt",
+				{
+					"name": "minecraft:dirt",
+					"states": {
+						"dirt_type": "coarse"
+					}
+				},
+				"minecraft:dirt_with_roots",
+				"minecraft:sand",
+				{
+					"name": "minecraft:sand",
+					"states": {
+						"sand_type": "red"
+					}
+				},
+				"minecraft:hardened_clay",
+				"minecraft:stained_hardened_clay"
+			]
+		}
+	}
+}

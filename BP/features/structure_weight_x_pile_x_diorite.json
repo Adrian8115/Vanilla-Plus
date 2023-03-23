@@ -1,0 +1,34 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "vp:structure_weight_x_pile_x_diorite"
+		},
+		"features": [
+			[
+				"vp:structure_x_pile_x_diorite_01",
+				1
+			],
+			[
+				"vp:structure_x_pile_x_diorite_02",
+				1
+			],
+			[
+				"vp:structure_x_pile_x_diorite_03",
+				1
+			],
+			[
+				"vp:structure_x_pile_x_diorite_04",
+				1
+			],
+			[
+				"vp:structure_x_pile_x_diorite_05",
+				1
+			],
+			[
+				"vp:structure_x_pile_x_diorite_06",
+				1
+			]
+		]
+	}
+}

@@ -1,0 +1,154 @@
+{
+	"format_version": "1.19.40",
+	"minecraft:block": {
+		"description": {
+			"identifier": "vp:rubber_log",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.log"
+			},
+			"properties": {
+				"vp:rotation": [
+					0,
+					1,
+					2
+				],
+				"vp:is_stripped": [
+					0,
+					1
+				]
+			}
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "rubber_log_side",
+					"render_method": "opaque"
+				},
+				"up": {
+					"texture": "rubber_log_top",
+					"render_method": "opaque"
+				},
+				"down": {
+					"texture": "rubber_log_top",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:flammable": {
+				"burn_odds": 5,
+				"flame_odds": 5
+			},
+			"minecraft:on_player_placing": {
+				"event": "vp:place_rotation"
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.5
+			},
+			"minecraft:destructible_by_explosion": true,
+			"minecraft:breathability": "solid",
+			"minecraft:unit_cube": {},
+			"tag:wood": {},
+			"tag:vp:rubber_log": {}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('vp:rotation') == 0",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('vp:rotation') == 1",
+				"components": {
+					"minecraft:rotation": [
+						90,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('vp:rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						90
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('vp:is_stripped') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "rubber_log_side",
+							"render_method": "opaque"
+						},
+						"up": {
+							"texture": "rubber_log_top",
+							"render_method": "opaque"
+						},
+						"down": {
+							"texture": "rubber_log_top",
+							"render_method": "opaque"
+						}
+					},
+					"minecraft:on_interact": {
+						"event": "vp:turn_into_stripped",
+						"target": "self",
+						"condition": "query.equipped_item_any_tag('slot.weapon.mainhand','minecraft:is_axe')"
+					},
+					"minecraft:loot": "loot_tables/empty.json"
+				}
+			},
+			{
+				"condition": "query.block_property('vp:is_stripped') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "rubber_log_side",
+							"render_method": "opaque"
+						},
+						"up": {
+							"texture": "rubber_log_top",
+							"render_method": "opaque"
+						},
+						"down": {
+							"texture": "rubber_log_top",
+							"render_method": "opaque"
+						}
+					},
+					"minecraft:loot": "loot_tables/empty.json"
+				}
+			}
+		],
+		"events": {
+			"vp:place_rotation": {
+				"set_block_property": {
+					"vp:rotation": "math.floor(query.cardinal_block_face_placed_on/2)"
+				}
+			},
+			"vp:turn_into_stripped": {
+				"run_command": {
+					"command": [
+						"playsound use.wood @s ~~~ 50"
+					],
+					"target": "other"
+				},
+				"damage": {
+					"type": "durability",
+					"amount": 1,
+					"target": "item"
+				},
+				"set_block_property": {
+					"vp:is_stripped": "query.block_property('vp:is_stripped')+1"
+				}
+			}
+		}
+	}
+}

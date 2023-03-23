@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "vp:vase_mesa_inv",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/empty"
+			},
+			"geometry": {
+				"default": "geometry.vase_mesa"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

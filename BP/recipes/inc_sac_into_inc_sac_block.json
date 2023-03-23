@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vp:inc_sac_into_inc_sac_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"f": {
+				"item": "minecraft:ink_sac"
+			}
+		},
+		"pattern": [
+			"fff",
+			"fff",
+			"fff"
+		],
+		"result": {
+			"item": "vp:ink_sac_block"
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "vp:bush_x_mushroom_x_weight"
+		},
+		"features": [
+			[
+				"vp:bush_x_mushroom_brown_x_tree",
+				5
+			],
+			[
+				"vp:bush_x_mushroom_red_x_tree",
+				3
+			]
+		]
+	}
+}

@@ -1,0 +1,101 @@
+
+
+{
+	"format_version": "1.19.40",
+	"minecraft:block": {
+		"description": {
+			"identifier": "vp:cobblestone_brick_slab",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.slabs"
+			},
+			"properties": {
+				"vp:is_upside_down": [
+					false, true
+				]
+			}
+		},
+		"components": {
+			"minecraft:part_visibility": {
+				"conditions": {
+					"down": "query.block_property('vp:is_upside_down') == false",
+					"up": "query.block_property('vp:is_upside_down') == true"
+				}
+			},
+			"minecraft:on_player_placing": {
+				"event": "vp:set_direction"
+			},
+			"minecraft:flammable": {
+				"burn_odds": 5,
+				"flame_odds": 5
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.5
+			},
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 8, 16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 8, 16]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "cobblestone_brick",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:geometry": "geometry.slab",
+			"minecraft:destructible_by_explosion": true,
+			"minecraft:breathability": "solid",
+			"tag:stone": {}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('vp:is_upside_down') == false",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 8, 16 ]
+					},
+					"minecraft:selection_box": {
+						"origin": [-8, 0, -8],
+						"size": [16, 8, 16]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('vp:is_upside_down') == true",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [ -8, 8, -8 ],
+						"size": [ 16, 8, 16 ]
+					},
+					"minecraft:selection_box": {
+						"origin": [-8, 8, -8],
+						"size": [16, 8, 16]
+					}
+				}
+			}
+		],
+		"events": {
+			"vp:set_direction": {
+				"sequence": [
+					{
+						"condition": "query.target_x_rotation>=0",
+						"set_block_property": {
+							"vp:is_upside_down": false
+						}
+					},
+					{
+						"condition": "query.target_x_rotation<=0",
+						"set_block_property": {
+							"vp:is_upside_down": true
+						}
+					}
+				]
+			}
+		}
+	}
+}

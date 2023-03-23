@@ -1,0 +1,26 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "vp:plant_x_mushroom_brown_x_02_x_scatter"
+		},
+		"places_feature": "vp:plant_x_mushroom_brown_x_01_x_singleblock",
+		"iterations": 1,
+		"scatter_chance": 50,
+		"x": {
+			"distribution": "uniform",
+			"extent": [
+				0,
+				5
+			]
+		},
+		"y": 0,
+		"z": {
+			"distribution": "uniform",
+			"extent": [
+				0,
+				5
+			]
+		}
+	}
+}
