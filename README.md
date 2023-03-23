@@ -1,1 +1,3 @@
 ### Vanilla-Plus
+
+**Vanilla+ Addon**
