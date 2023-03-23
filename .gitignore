@@ -5,6 +5,6 @@ Desktop.ini
 !.bridge/compiler/
 !.bridge/extensions
 builds
-config
-deno
+config.json
+deno.json
 .gitignore
