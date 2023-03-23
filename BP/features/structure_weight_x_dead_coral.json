@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "vp:structure_weight_x_dead_coral"
+		},
+		"features": [
+			[
+				"vp:structure_x_dead_coral_x_brain_01",
+				10
+			],
+			[
+				"vp:structure_x_dead_coral_x_brain_02",
+				10
+			],
+			[
+				"vp:structure_x_dead_coral_x_bubble_01",
+				10
+			],
+			[
+				"vp:structure_x_dead_coral_x_bubble_02",
+				10
+			],
+			[
+				"vp:structure_x_dead_coral_x_fire_01",
+				10
+			],
+			[
+				"vp:structure_x_dead_coral_x_fire_02",
+				10
+			],
+			[
+				"vp:structure_x_dead_coral_x_horn_01",
+				10
+			],
+			[
+				"vp:structure_x_dead_coral_x_horn_02",
+				10
+			],
+			[
+				"vp:structure_x_dead_coral_x_tube_01",
+				10
+			],
+			[
+				"vp:structure_x_dead_coral_x_tube_02",
+				10
+			]
+		]
+	}
+}

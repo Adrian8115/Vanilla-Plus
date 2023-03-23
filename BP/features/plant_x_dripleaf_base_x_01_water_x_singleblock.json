@@ -1,0 +1,23 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "vp:plant_x_dripleaf_base_x_01_water_x_singleblock"
+		},
+		"places_block": "minecraft:moss_block",
+		"enforce_survivability_rules": false,
+		"enforce_placement_rules": false,
+		"may_replace": [
+			"minecraft:dirt",
+			"minecraft:moss_block",
+			"minecraft:clay",
+			"minecraft:gravel",
+			"minecraft:sand"
+		],
+		"may_attach_to": {
+			"top": [
+				"minecraft:water"
+			]
+		}
+	}
+}

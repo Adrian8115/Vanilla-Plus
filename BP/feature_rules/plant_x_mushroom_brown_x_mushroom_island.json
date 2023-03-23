@@ -1,0 +1,32 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "vp:plant_x_mushroom_brown_x_mushroom_island",
+      "places_feature": "vp:plant_x_mushroom_brown_x_02_x_scatter"
+    },
+    "conditions": {
+      "placement_pass": "after_surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "mooshroom_island"
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 10,
+      "scatter_chance": 100,
+      "x": {
+        "distribution": "uniform",
+        "extent": [ 0, 16 ]
+      },
+      "y": "query.heightmap(variable.worldx, variable.worldz)",
+      "z": {
+        "distribution": "uniform",
+        "extent": [ 0, 16 ]
+      }
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"is_experimental": false,
+			"identifier": "vp:vase_mesa",
+			"properties": {
+				"vp:rotation": [
+					2,
+					3,
+					4,
+					5
+				]
+			}
+		},
+		"events": {
+			"vp:set_rotation": {
+				"set_block_property": {
+					"vp:rotation": "(query.cardinal_facing_2d)"
+				}
+			}
+		},
+		"components": {
+			"minecraft:unwalkable": true,
+			"minecraft:explosion_resistance": 0,
+			"minecraft:creative_category": {
+				"category": "construction"
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:breathability": "air",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "vp_vase_mesa",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					0,
+					0,
+					0
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-5,
+					0,
+					-5
+				],
+				"size": [
+					10,
+					16,
+					10
+				]
+			},
+			"minecraft:geometry": "geometry.vase_mesa",
+			"minecraft:block_light_absorption": 0,
+			"minecraft:destroy_time": 3,
+			"minecraft:on_player_placing": {
+				"event": "vp:set_rotation"
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('vp:rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('vp:rotation') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('vp:rotation') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('vp:rotation') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			}
+		]
+	}
+}

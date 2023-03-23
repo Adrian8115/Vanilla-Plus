@@ -1,0 +1,22 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "vp:structure_weight_x_fallen_log_2w_oak"
+		},
+		"features": [
+			[
+				"vp:structure_x_fallen_log_2w_oak_01",
+				10
+			],
+			[
+				"vp:structure_x_fallen_log_2w_oak_02",
+				10
+			],
+			[
+				"vp:structure_x_fallen_log_2w_oak_03",
+				10
+			]
+		]
+	}
+}

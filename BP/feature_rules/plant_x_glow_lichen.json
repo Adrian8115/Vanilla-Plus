@@ -1,0 +1,44 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "vp:plant_x_glow_lichen",
+      "places_feature": "vp:plant_x_glow_lichen_x_02_x_scatter"
+    },
+    "conditions": {
+      "placement_pass": "underground_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "overworld"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "overworld_generation"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 5,
+      "coordinate_eval_order": "zyx",
+      "x": {
+        "distribution": "gaussian",
+        "extent": [ 0, 16 ]
+      },
+      "y": {
+        "distribution": "gaussian",
+        "extent": [ -48, 128 ]
+      },
+      "z": {
+        "distribution": "gaussian",
+        "extent": [ 0, 16 ]
+      }
+    }
+  }
+}

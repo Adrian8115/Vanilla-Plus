@@ -1,0 +1,11 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:snap_to_surface_feature": {
+		"description": {
+			"identifier": "vp:plant_x_dripleaf_big_d3_x_02_surface_x_snap"
+		},
+		"feature_to_snap": "vp:plant_x_dripleaf_big_d3_x_01_x_growing",
+		"vertical_search_range": 5,
+		"surface": "floor"
+	}
+}

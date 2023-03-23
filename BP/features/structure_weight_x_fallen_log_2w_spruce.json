@@ -1,0 +1,22 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "vp:structure_weight_x_fallen_log_2w_spruce"
+		},
+		"features": [
+			[
+				"vp:structure_x_fallen_log_2w_spruce_01",
+				10
+			],
+			[
+				"vp:structure_x_fallen_log_2w_spruce_02",
+				10
+			],
+			[
+				"vp:structure_x_fallen_log_2w_spruce_03",
+				10
+			]
+		]
+	}
+}

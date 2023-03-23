@@ -1,0 +1,70 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "vp:plant_x_flowers_x_weight"
+		},
+		"features": [
+			[
+				"vp:plant_x_flower_allium_x_02_x_scatter",
+				5
+			],
+			[
+				"vp:plant_x_flower_cornflower_x_02_x_scatter",
+				5
+			],
+			[
+				"vp:plant_x_flower_houstonia_x_02_x_scatter",
+				5
+			],
+			[
+				"vp:plant_x_flower_lilac_x_05_x_scatter",
+				5
+			],
+			[
+				"vp:plant_x_flower_lily_valley_x_02_x_scatter",
+				5
+			],
+			[
+				"vp:plant_x_flower_orchid_x_02_x_scatter",
+				5
+			],
+			[
+				"vp:plant_x_flower_oxeye_x_02_x_scatter",
+				5
+			],
+			[
+				"vp:plant_x_flower_peony_x_05_x_scatter",
+				5
+			],
+			[
+				"vp:plant_x_flower_poppy_x_02_x_scatter",
+				5
+			],
+			[
+				"vp:plant_x_flower_rose_bush_x_05_x_scatter",
+				5
+			],
+			[
+				"vp:plant_x_flower_sunflower_x_05_x_scatter",
+				5
+			],
+			[
+				"vp:plant_x_flower_tulip_orange_x_02_x_scatter",
+				5
+			],
+			[
+				"vp:plant_x_flower_tulip_pink_x_02_x_scatter",
+				5
+			],
+			[
+				"vp:plant_x_flower_tulip_red_x_02_x_scatter",
+				5
+			],
+			[
+				"vp:plant_x_flower_tulip_white_x_02_x_scatter",
+				5
+			]
+		]
+	}
+}

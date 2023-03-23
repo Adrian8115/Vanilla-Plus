@@ -1,0 +1,47 @@
+item.vp:salt=Salt
+item.vp:steel_ingot=Steel Ingot
+item.vp:steel_plate=Steel Plate
+item.vp:vase_desert_item=Desert Vase
+item.spawn_egg.entity.vp:vase_desert_inv.name=Spawn Desert Vase Inventory
+
+item.spawn_egg.entity.minecraft:player.name=Spawn Player
+item.spawn_egg.entity.vp:explosion.name=Explosion
+item.spawn_egg.entity.vp:explosion_instant.name=Instant Explosion
+
+entity.vp:explosion.name=Explosion
+entity.vp:explosion_instant.name=Explosion Instant
+entity.vp:vase_desert_inv.name=Desert Vase Inventory
+
+tile.vp:brimstone.name=Brimstone
+tile.vp:cobblestone_brick.name=Cobblestone Brick
+tile.vp:cobblestone_brick_slab.name=Cobblestone Brick Slab
+tile.vp:cobblestone_brick_mossy.name=Mossy Cobblestone Brick
+tile.vp:cobblestone_brick_mossy_slab.name=Mossy Cobblestone Brick Slab
+tile.vp:cobblestone_dark.name=Dark Cobblestone
+tile.vp:cobblestone_sandy.name=Sandy Cobblestone
+tile.vp:coconut.name=Coconut
+tile.vp:crimbeltstone.name=Crimbeltstone
+tile.vp:flint_block.name=Flint Block
+tile.vp:glow_ink_sac_block.name=Glow Ink Sac Block
+tile.vp:ink_sac_block.name=Ink Sac Block
+tile.vp:lavender_flower.name=Flowery Lavender
+tile.vp:lavender_wild.name=Wild Lavender
+tile.vp:leather_pile.name=Leather Pile
+tile.vp:palm_leaves.name=Palm Leaves
+tile.vp:palm_log.name=Palm Log
+tile.vp:rubber_leaves.name=Rubber Leaves
+tile.vp:rubber_log.name=Rubber Log
+tile.vp:sand_dune.name=Dune Sand
+tile.vp:sand_dune_grass.name=Dune Sand Grass
+tile.vp:soil.name=Soil
+tile.vp:soil_clay.name=Clay Soil
+tile.vp:soil_dry.name=Dry Soil
+tile.vp:soil_mossy.name=Mossy Soil
+tile.vp:trap.name=Trap
+tile.vp:truss_copper_big.name=Big Copper Truss
+tile.vp:blast_furnace_small_bottom.name=Small Blast Furnace Bottom
+tile.vp:blast_furnace_small_middle.name=Small Blast Furnace Middle
+tile.vp:blast_furnace_small_top.name=Small Balst Furnace Top
+tile.vp:vase_desert.name=Desert Vase
+
+item.vp:vase_mesa_item=Mesa Vase

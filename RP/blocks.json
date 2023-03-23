@@ -1,0 +1,128 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"vp:lavender_wild": {
+		"sound": "grass"
+	},
+	"vp:lavender_flower": {
+		"sound": "grass"
+	},
+	"vp:leather_pile": {
+		"sound": "stone",
+		"textures": {
+			"side": "leather_pile_side",
+			"up": "leather_pile_top",
+			"down": "leather_pile_top"
+		}
+	},
+	"vp:glow_ink_sac_block": {
+		"sound": "stone",
+		"textures": "glow_ink_sac_block"
+	},
+	"vp:ink_sac_block": {
+		"sound": "stone",
+		"textures": "ink_sac_block"
+	},
+	"vp:flint_block": {
+		"sound": "stone",
+		"textures": "flint_block"
+	},
+	"vp:cobblestone_brick": {
+		"sound": "stone",
+		"textures": "cobblestone_brick"
+	},
+	"vp:cobblestone_brick_mossy": {
+		"sound": "stone",
+		"textures": "cobblestone_brick_mossy"
+	},
+	"vp:soil": {
+		"sound": "stone",
+		"textures": "soil"
+	},
+	"vp:soil_dry": {
+		"sound": "stone",
+		"textures": "soil_dry"
+	},
+	"vp:soil_mossy": {
+		"sound": "stone",
+		"textures": "soil_mossy"
+	},
+	"vp:cobblestone_dark": {
+		"sound": "stone",
+		"textures": "cobblestone_dark"
+	},
+	"vp:brimstone": {
+		"sound": "stone",
+		"textures": "brimstone"
+	},
+	"vp:cobblestone_sandy": {
+		"sound": "sand",
+		"textures": "cobblestone_sandy"
+	},
+	"vp:crimbeltstone": {
+		"sound": "stone",
+		"textures": "crimbeltstone"
+	},
+	"vp:sand_dune": {
+		"sound": "sand",
+		"textures": "sand_dune"
+	},
+	"vp:soil_clay": {
+		"sound": "gravel",
+		"textures": "soil_clay"
+	},
+	"vp:sand_dune_grass": {
+		"sound": "grass",
+		"textures": "sand_dune_grass"
+	},
+	"vp:rubber_log": {
+		"sound": "wood",
+		"textures": {
+			"side": "rubber_log_side",
+			"up": "rubber_log_top",
+			"down": "rubber_log_top"
+		}
+	},
+	"vp:rubber_leaves": {
+		"sound": "grass",
+		"textures": "rubber_leaves"
+	},
+	"vp:palm_log": {
+		"sound": "wood",
+		"textures": {
+			"side": "palm_log_side",
+			"up": "palm_log_top",
+			"down": "palm_log_top"
+		}
+	},
+	"vp:palm_leaves": {
+		"sound": "grass",
+		"textures": "palm_leaves"
+	},
+	"vp:coconut": {
+		"sound": "wood",
+		"textures": "coconut"
+	},
+	"vp:truss_copper_big": {
+		"sound": "copper",
+		"textures": "copper"
+	},
+	"vp:blast_furnace_small_bottom": {
+		"sound": "stone"
+	},
+	"vp:blast_furnace_small_middle": {
+		"sound": "stone"
+	},
+	"vp:blast_furnace_small_top": {
+		"sound": "stone"
+	},
+	"vp:vase_desert": {
+		"sound": "stone"
+	},
+	"vp:vase_mesa": {
+		"sound": "stone"
+	}
+}

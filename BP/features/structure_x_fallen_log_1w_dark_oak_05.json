@@ -1,0 +1,14 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "vp:structure_x_fallen_log_1w_dark_oak_05"
+		},
+		"structure_name": "mystructure:fallen_log_1w_dark_oak_05",
+		"adjustment_radius": 8,
+		"facing_direction": "random",
+		"constraints": {
+			"grounded": {}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vp:cobblestone_sandy_2"
+		},
+		"pattern": [
+			"ab",
+			"ba"
+		],
+		"key": {
+			"b": {
+				"item": "minecraft:sand"
+			},
+			"a": {
+				"item": "minecraft:cobblestone"
+			}
+		},
+		"result": [
+			{
+				"item": "vp:cobblestone_sandy",
+				"count": 1
+			}
+		],
+		"tags":[
+			"crafting_table"
+		]
+	}
+}

@@ -1,0 +1,97 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:tree_feature": {
+		"description": {
+			"identifier": "vp:stump_x_dark_oak_x_tree"
+		},
+		"trunk": {
+			"trunk_height": {
+				"range_min": 1,
+				"range_max": 3
+			},
+			"trunk_block": {
+				"name": "minecraft:log2",
+				"states": {
+					"new_log_type": "dark_oak"
+				}
+			},
+			"trunk_decoration": {
+				"decoration_chance": 100,
+				"decoration_block": "minecraft:vine"
+			}
+		},
+		"base_block": [
+			"minecraft:dirt",
+			"minecraft:dirt_with_roots"
+		],
+		"may_grow_on": [
+			"minecraft:grass",
+			"minecraft:podzol",
+			"minecraft:dirt",
+			{
+				"name": "minecraft:dirt",
+				"states": {
+					"dirt_type": "coarse"
+				}
+			},
+			"minecraft:dirt_with_roots",
+			"minecraft:moss_block"
+		],
+		"may_replace": [
+			"minecraft:air",
+			{
+				"name": "minecraft:leaves",
+				"states": {
+					"old_leaf_type": "oak"
+				}
+			},
+			{
+				"name": "minecraft:leaves",
+				"states": {
+					"old_leaf_type": "spruce"
+				}
+			},
+			{
+				"name": "minecraft:leaves",
+				"states": {
+					"old_leaf_type": "birch"
+				}
+			},
+			{
+				"name": "minecraft:leaves",
+				"states": {
+					"old_leaf_type": "jungle"
+				}
+			},
+			{
+				"name": "minecraft:leaves2",
+				"states": {
+					"new_leaf_type": "acacia"
+				}
+			},
+			{
+				"name": "minecraft:leaves2",
+				"states": {
+					"new_leaf_type": "dark_oak"
+				}
+			},
+			"minecraft:azalea_leaves",
+			"minecraft:azalea_leaves_flowered",
+			"minecraft:vine",
+			"minecraft:tallgrass"
+		],
+		"may_grow_through": [
+			"minecraft:grass",
+			"minecraft:podzol",
+			"minecraft:dirt",
+			{
+				"name": "minecraft:dirt",
+				"states": {
+					"dirt_type": "coarse"
+				}
+			},
+			"minecraft:dirt_with_roots",
+			"minecraft:moss_block"
+		]
+	}
+}

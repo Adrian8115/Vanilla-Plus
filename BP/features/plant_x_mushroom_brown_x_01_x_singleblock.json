@@ -1,0 +1,35 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "vp:plant_x_mushroom_brown_x_01_x_singleblock"
+		},
+		"places_block": "minecraft:brown_mushroom",
+		"enforce_survivability_rules": false,
+		"enforce_placement_rules": false,
+		"may_replace": [
+			"minecraft:air"
+		],
+		"may_attach_to": {
+			"bottom": [
+				"minecraft:grass",
+				"minecraft:mycelium",
+				"minecraft:podzol",
+				"minecraft:dirt",
+				{
+					"name": "minecraft:dirt",
+					"states": {
+						"dirt_type": "coarse"
+					}
+				},
+				"minecraft:dirt_with_roots",
+				"minecraft:moss_block",
+				"minecraft:clay",
+				"minecraft:stone",
+				"minecraft:cobblestone",
+				"minecraft:mossy_cobblestone",
+				"minecraft:log"
+			]
+		}
+	}
+}

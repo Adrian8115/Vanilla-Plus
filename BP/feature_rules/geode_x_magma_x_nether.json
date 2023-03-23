@@ -1,0 +1,37 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "vp:geode_x_magma_x_nether",
+      "places_feature": "vp:geode_x_magma"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "all_of": [
+            {
+              "any_of": [
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "nether"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 1.0,
+      "x": 0,
+      "y": {
+        "distribution": "uniform",
+        "extent": [ 16, 112 ]
+      },
+      "z": 0
+    }
+  }
+}

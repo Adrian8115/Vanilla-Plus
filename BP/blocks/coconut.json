@@ -1,0 +1,17 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "vp:coconut"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.coconut",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "coconut",
+					"render_method": "alpha_test"
+				}
+			}
+		}
+	}
+}

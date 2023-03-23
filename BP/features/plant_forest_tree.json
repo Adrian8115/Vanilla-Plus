@@ -1,0 +1,18 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "vp:plant_forest_tree"
+		},
+		"features": [
+			[
+				"vp:plant_birch_forest_tree",
+				1
+			],
+			[
+				"vp:plant_oak_forest_tree",
+				3
+			]
+		]
+	}
+}

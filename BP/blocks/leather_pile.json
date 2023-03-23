@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "vp:leather_pile",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "nature"
+			},
+			"minecraft:material_instances": {
+				"sides": {
+					"texture": "leather_pile_side"
+				},
+				"up": {
+					"texture": "leather_pile_up"
+				},
+				"down": {
+					"texture": "leather_pile_up"
+				}
+			}
+		}
+	}
+}

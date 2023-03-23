@@ -1,0 +1,113 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "Vanilla+",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"lavender_wild": {
+			"textures": "textures/blocks/lavender_wild"
+		},
+		"lavender_flower": {
+			"textures": "textures/blocks/lavender_flower"
+		},
+		"glow_ink_sac_block": {
+			"textures": "textures/blocks/glow_ink_sac_block"
+		},
+		"ink_sac_block": {
+			"textures": "textures/blocks/ink_sac_block"
+		},
+		"flint_block": {
+			"textures": "textures/blocks/flint_block"
+		},
+		"leather_pile_side": {
+			"textures": "textures/blocks/leather_pile_side"
+		},
+		"leather_pile_top": {
+			"textures": "textures/blocks/leather_pile_top"
+		},
+		"cobblestone_brick": {
+			"textures": "textures/blocks/cobblestone_brick"
+		},
+		"cobblestone_brick_mossy": {
+			"textures": "textures/blocks/cobblestone_brick_mossy"
+		},
+		"soil": {
+			"textures": "textures/blocks/soil"
+		},
+		"soil_dry": {
+			"textures": "textures/blocks/soil_dry"
+		},
+		"soil_mossy": {
+			"textures": "textures/blocks/soil_mossy"
+		},
+		"cobblestone_dark": {
+			"textures": "textures/blocks/cobblestone_dark"
+		},
+		"brimstone": {
+			"textures": "textures/blocks/brimstone"
+		},
+		"cobblestone_sandy": {
+			"textures": "textures/blocks/cobblestone_sandy"
+		},
+		"crimbeltstone": {
+			"textures": "textures/blocks/crimbeltstone"
+		},
+		"sand_dune": {
+			"textures": "textures/blocks/sand_dune"
+		},
+		"soil_clay": {
+			"textures": "textures/blocks/soil_clay"
+		},
+		"sand_dune_grass": {
+			"textures": "textures/blocks/sand_dune_grass"
+		},
+		"rubber_log_side": {
+			"textures": "textures/blocks/rubber_log_side"
+		},
+		"rubber_log_top": {
+			"textures": "textures/blocks/rubber_log_top"
+		},
+		"rubber_leaves": {
+			"textures": "textures/blocks/rubber_leaves"
+		},
+		"palm_leaves": {
+			"textures": "textures/blocks/palm_leaves"
+		},
+		"palm_log_side": {
+			"textures": "textures/blocks/palm_log_side"
+		},
+		"palm_log_top": {
+			"textures": "textures/blocks/palm_log_top"
+		},
+		"coconut": {
+			"textures": "textures/blocks/coconut"
+		},
+		"trap_bottom": {
+			"textures": "textures/blocks/trap_bottom"
+		},
+		"trap_side": {
+			"textures": "textures/blocks/trap_side"
+		},
+		"trap_top": {
+			"textures": "textures/blocks/trap_top"
+		},
+		"copper": {
+			"textures": "textures/blocks/copper"
+		},
+		"vp_blast_furnace_small_bottom": {
+			"textures": "textures/blocks/blast_furnace_small_bottom"
+		},
+		"vp_blast_furnace_small_middle": {
+			"textures": "textures/blocks/blast_furnace_small_middle"
+		},
+		"vp_blast_furnace_small_top": {
+			"textures": "textures/blocks/blast_furnace_small_top"
+		},
+		"vp_vase_desert": {
+			"textures": "textures/blocks/vase_desert"
+		},
+		"vp_vase_mesa": {
+			"textures": "textures/blocks/vase_mesa"
+		}
+	}
+}

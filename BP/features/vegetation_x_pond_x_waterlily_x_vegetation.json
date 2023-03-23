@@ -1,0 +1,52 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:vegetation_patch_feature": {
+		"description": {
+			"identifier": "vp:vegetation_x_pond_x_waterlily_x_vegetation"
+		},
+		"replaceable_blocks": [
+			"minecraft:grass",
+			"minecraft:podzol",
+			"minecraft:dirt",
+			{
+				"name": "minecraft:dirt",
+				"states": {
+					"dirt_type": "coarse"
+				}
+			},
+			"minecraft:dirt_with_roots",
+			"minecraft:moss_block",
+			"minecraft:clay",
+			"minecraft:mud",
+			"minecraft:muddy_mangrove_roots",
+			"minecraft:mangrove_roots",
+			"minecraft:gravel",
+			"minecraft:sand",
+			"minecraft:stone",
+			"minecraft:dripstone_block",
+			"minecraft:tuff",
+			"minecraft:tallgrass",
+			"minecraft:double_plant",
+			"minecraft:azalea",
+			"minecraft:flowering_azalea",
+			"minecraft:moss_carpet",
+			"minecraft:vine",
+			"minecraft:glow_lichen",
+			"minecraft:brown_mushroom",
+			"minecraft:red_mushroom"
+		],
+		"ground_block": "minecraft:grass",
+		"vegetation_feature": "minecraft:waterlily_feature",
+		"surface": "floor",
+		"depth": 2,
+		"vertical_range": 3,
+		"vegetation_chance": 1,
+		"horizontal_radius": {
+			"range_min": 2,
+			"range_max": 3
+		},
+		"extra_deep_block_chance": 0.8,
+		"extra_edge_column_chance": 0.7,
+		"waterlogged": true
+	}
+}

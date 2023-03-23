@@ -1,0 +1,60 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "vp:plant_x_spore_blossom_x_01_x_singleblock"
+		},
+		"places_block": "minecraft:spore_blossom",
+		"enforce_survivability_rules": false,
+		"enforce_placement_rules": false,
+		"may_replace": [
+			"minecraft:air",
+			"minecraft:vine"
+		],
+		"may_attach_to": {
+			"top": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:dirt_with_roots",
+				"minecraft:moss_block",
+				{
+					"name": "minecraft:log",
+					"states": {
+						"old_log_type": "oak"
+					}
+				},
+				{
+					"name": "minecraft:log",
+					"states": {
+						"old_log_type": "spruce"
+					}
+				},
+				{
+					"name": "minecraft:log",
+					"states": {
+						"old_log_type": "birch"
+					}
+				},
+				{
+					"name": "minecraft:log",
+					"states": {
+						"old_log_type": "jungle"
+					}
+				},
+				{
+					"name": "minecraft:log2",
+					"states": {
+						"new_log_type": "acacia"
+					}
+				},
+				{
+					"name": "minecraft:log2",
+					"states": {
+						"new_log_type": "dark_oak"
+					}
+				},
+				"minecraft:mangrove_log"
+			]
+		}
+	}
+}

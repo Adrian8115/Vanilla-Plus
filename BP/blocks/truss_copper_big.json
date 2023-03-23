@@ -1,0 +1,19 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "vp:truss_copper_big"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.truss_copper_big",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "copper",
+					"ambient_occlusion": true,
+					"face_dimming": true,
+					"render_method": "opaque"
+				}
+			}
+		}
+	}
+}

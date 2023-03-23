@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "vp:structure_weight_x_pile_x_coarse_dirt"
+		},
+		"features": [
+			[
+				"vp:structure_x_pile_x_coarse_dirt_01",
+				1
+			],
+			[
+				"vp:structure_x_pile_x_coarse_dirt_02",
+				1
+			],
+			[
+				"vp:structure_x_pile_x_coarse_dirt_03",
+				1
+			],
+			[
+				"vp:structure_x_pile_x_coarse_dirt_04",
+				1
+			],
+			[
+				"vp:structure_x_pile_x_coarse_dirt_05",
+				1
+			],
+			[
+				"vp:structure_x_pile_x_coarse_dirt_06",
+				1
+			],
+			[
+				"vp:structure_x_pile_x_coarse_dirt_07",
+				1
+			],
+			[
+				"vp:structure_x_pile_x_coarse_dirt_08",
+				1
+			],
+			[
+				"vp:structure_x_pile_x_coarse_dirt_09",
+				1
+			],
+			[
+				"vp:structure_x_pile_x_coarse_dirt_10",
+				1
+			]
+		]
+	}
+}

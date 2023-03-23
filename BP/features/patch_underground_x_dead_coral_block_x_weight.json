@@ -1,0 +1,30 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "vp:patch_underground_x_dead_coral_block_x_weight"
+		},
+		"features": [
+			[
+				"vp:patch_underground_x_dead_coral_x_brain_x_ore",
+				10
+			],
+			[
+				"vp:patch_underground_x_dead_coral_x_bubble_x_ore",
+				10
+			],
+			[
+				"vp:patch_underground_x_dead_coral_x_fire_x_ore",
+				10
+			],
+			[
+				"vp:patch_underground_x_dead_coral_x_horn_x_ore",
+				10
+			],
+			[
+				"vp:patch_underground_x_dead_coral_x_tube_x_ore",
+				10
+			]
+		]
+	}
+}

@@ -1,0 +1,56 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:vegetation_patch_feature": {
+		"description": {
+			"identifier": "vp:oase_pond"
+		},
+		"replaceable_blocks": [
+			"minecraft:sandstone",
+			"minecraft:grass",
+			"minecraft:podzol",
+			"minecraft:dirt",
+			{
+				"name": "minecraft:dirt",
+				"states": {
+					"dirt_type": "coarse"
+				}
+			},
+			"minecraft:dirt_with_roots",
+			"minecraft:moss_block",
+			"minecraft:clay",
+			"minecraft:mud",
+			"minecraft:muddy_mangrove_roots",
+			"minecraft:mangrove_roots",
+			"minecraft:gravel",
+			"minecraft:sand",
+			"minecraft:stone",
+			"minecraft:dripstone_block",
+			"minecraft:tuff",
+			"minecraft:tallgrass",
+			"minecraft:double_plant",
+			"minecraft:azalea",
+			"minecraft:flowering_azalea",
+			"minecraft:moss_carpet",
+			"minecraft:vine",
+			"minecraft:glow_lichen",
+			"minecraft:brown_mushroom",
+			"minecraft:red_mushroom"
+		],
+		"ground_block": "vp:soil_clay",
+		"vegetation_feature": "minecraft:waterlily_feature",
+		"surface": "floor",
+		"depth": {
+			"range_min": 4,
+			"range_max": 6
+		},
+		"vertical_range": 3,
+		"vegetation_chance": 1,
+		"horizontal_radius": {
+			"range_min": 4,
+			"range_max": 5
+		},
+		"extra_deep_block_chance": 0.8,
+		"extra_edge_column_chance": 0.7,
+		"waterlogged": true
+	}
+}

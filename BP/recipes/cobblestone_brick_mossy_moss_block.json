@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+    "description": {
+			"identifier": "vp:cobblestone_brick_mossy_moss_block"
+		},
+		"result": [
+			{
+				"item": "vp:cobblestone_brick_mossy",
+				"count": 1
+			}
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:moss_block",
+				"count": 1
+			},
+			{
+				"item": "vp:cobblestone_brick",
+				"count": 1
+			}
+		],
+    "tags": [
+			"crafting_table"
+		]
+	}
+}

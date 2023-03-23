@@ -1,0 +1,41 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "vp:plant_x_coral_fan_x_dead_red_x_singleblock"
+		},
+		"places_block": {
+			"name": "minecraft:coral_fan_dead",
+			"states": {
+				"coral_color": "red",
+				"coral_fan_direction": 1
+			}
+		},
+		"enforce_survivability_rules": false,
+		"enforce_placement_rules": true,
+		"may_replace": [
+			"minecraft:water",
+			"minecraft:flowing_water",
+			"minecraft:seagrass"
+		],
+		"may_attach_to": {
+			"bottom": [
+				"minecraft:dirt",
+				{
+					"name": "minecraft:dirt",
+					"states": {
+						"dirt_type": "coarse"
+					}
+				},
+				"minecraft:dirt_with_roots",
+				"minecraft:moss_block",
+				"minecraft:clay",
+				"minecraft:gravel",
+				"minecraft:sand",
+				"minecraft:cobblestone",
+				"minecraft:mossy_cobblestone",
+				"minecraft:coral_block"
+			]
+		}
+	}
+}

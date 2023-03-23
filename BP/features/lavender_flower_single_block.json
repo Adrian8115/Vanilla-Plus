@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "vp:lavender_flower_single_block"
+		},
+		"places_block": {
+			"name": "vp:lavender_flower"
+		},
+		"enforce_survivability_rules": true,
+		"enforce_placement_rules": true,
+		"may_replace": [
+			"air"
+		]
+	}
+}

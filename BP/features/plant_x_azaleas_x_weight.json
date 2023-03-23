@@ -1,0 +1,18 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "vp:plant_x_azaleas_x_weight"
+		},
+		"features": [
+			[
+				"vp:plant_x_azalea_x_singleblock",
+				100
+			],
+			[
+				"vp:plant_x_azalea_flowering_x_singleblock",
+				75
+			]
+		]
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "vp:patch_underground_x_magma_block_x_ore"
+		},
+		"count": 15,
+		"replace_rules": [
+			{
+				"places_block": "minecraft:magma",
+				"may_replace": [
+					"minecraft:gravel"
+				]
+			},
+			{
+				"places_block": "minecraft:magma",
+				"may_replace": [
+					"minecraft:deepslate"
+				]
+			},
+			{
+				"places_block": "minecraft:magma",
+				"may_replace": [
+					"minecraft:cobbled_deepslate"
+				]
+			},
+			{
+				"places_block": "minecraft:magma",
+				"may_replace": [
+					"minecraft:tuff"
+				]
+			}
+		]
+	}
+}
